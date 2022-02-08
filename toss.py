@@ -16,16 +16,16 @@ word.pack()
 frame.pack(pady=10)
 
 #load heads
-load = Image.open("C:\\Users\\HP\\Pictures\\tails.jpeg")
+load = Image.open("tails.jpeg")
 load = load.resize((200, 200))
 heads = ImageTk.PhotoImage(load)
  
 #load tails
-load = Image.open("C:\\Users\\HP\\Pictures\\heads.jpeg")
+load = Image.open("heads.jpeg")
 load = load.resize((200, 200))
 tails = ImageTk.PhotoImage(load)
 
-load = Image.open("C:\\Users\\HP\\Pictures\\black.jpg")
+load = Image.open("black.jpg")
 load = load.resize((200, 200))
 black = ImageTk.PhotoImage(load)
 
